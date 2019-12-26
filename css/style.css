@@ -1,0 +1,202 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #222328;
+    font-family: "Gill Sans Bold";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body,html{
+    max-width: 100%;
+}
+.wrap{
+    width: 75%;
+}
+
+/*헤더*/
+#header{
+    height: 100px;
+    border-bottom: 7.5px #000000 solid;
+}
+#logo{
+    width: 260px;
+    height: 70px;
+    margin: 15px 0px 15px 65px;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+}
+#logo>a>img{
+    width: 290px;
+    margin-top: -57px;
+    margin-left: -15px;
+}
+
+
+
+/*네비게이션*/
+.mainmenu{
+    width: 50%;
+    height: 82.5px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 65px;
+}
+.mainmenu>li{
+    width: 20%;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding-bottom: 33.5px;
+}
+.mainmenu>li>a{
+    width: 100%;
+    float: left;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 15px 0px 0px;
+}
+.mainmenu>li>a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #85ffff;
+}
+.submenu{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    font-size: 20px;
+    z-index: 2;
+    top: 102.5px;
+    text-align: center;
+    display: inline-block;
+    display: none;
+}
+.submenu>li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.submenu>li>a{
+    color: #ffffff;
+}
+.submenu>li>a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #C4FDFF;
+}
+.submenuBG{
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    background: linear-gradient(to right, #222222, #222222, #005766);
+    position: absolute;
+    top: 107.5px;
+    display: none;
+}
+
+
+
+/*이미지 슬라이드*/
+#image{
+    height: 650px;
+    overflow: hidden;
+}
+#slogan{
+    width: 100%;
+    height: 115px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 530px;
+    background-color: rgba(255,255,255,0.25);
+    text-align: center;
+    border-bottom: 7.5px #000000 solid;
+}
+#slogan span{
+    color: #12EAFF;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: italic;
+}
+#slogan p{
+    color: #ffffff;
+    font-size: 30px;
+}
+.imageslide{
+    width: 5760px;
+}
+.imageslide>li{
+    float: left;
+    position: relative;
+}
+.imageslide img{
+    width: 1920px;
+    height: 650px;
+}
+
+
+
+/*콘텐츠*/
+#newsArea{
+    width: 75%;
+    margin-top: 45px;
+    height: 600px;
+}
+.news{
+    width: 33.33%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+}
+.news img{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/*배너*/
+#bannerArea{
+    width: 75%;
+    height: 600px;
+    margin-bottom: 60px;
+}
+.banner{
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+}
+.banner>img{
+    width: 100%;
+    height: 300px;
+}
+.BIGbanner{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+}
+.BIGbanner>img{
+    height: 100%;
+    position: relative;
+}
+.bannercover{
+    width: 75%;
+    height: 300px;
+    background: linear-gradient(to right, rgba(212,244,250,0), rgba(212,244,250,0), #D4F4FA, #D4F4FA, #D4F4FA);
+    z-index: 2;
+    position: absolute;
+}
+
+
+
+/*푸터*/
+#footer{
+    border-top: 7.5px #000000 solid;
+    height: 200px;
+    background-color: #005766;
+    color: #ffffff;
+}
